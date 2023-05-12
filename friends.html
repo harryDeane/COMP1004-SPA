@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My Social Network - Friends</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>My Social Network</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="friends.html">Friends</a></li>
+          <li><a href="settings.html">Settings</a></li>
+          <li><a href="logout.html">Logout</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Friends</h2>
+      <form id="search-form">
+        <input type="text" name="search" placeholder="Search friends">
+        <button type="submit">Search</button>
+      </form>
+      <ul class="friends-list">
+        <li class="friend">
+          <img src="https://via.placeholder.com/150" alt="John Doe">
+          <h3>John Doe</h3>
+          <button class="remove-friend">Remove Friend</button>
+          <button class="block-user">Block User</button>
+        </li>
+        <li class="friend">
+          <img src="https://via.placeholder.com/150" alt="Jane Smith">
+          <h3>Jane Smith</h3>
+          <button class="remove-friend">Remove Friend</button>
+          <button class="block-user">Block User</button>
+        </li>
+        <li class="friend">
+          <img src="https://via.placeholder.com/150" alt="Bob Johnson">
+          <h3>Bob Johnson</h3>
+          <button class="remove-friend">Remove Friend</button>
+          <button class="block-user">Block User</button>
+        </li>
+      </ul>
+      <h2>Blocked Users</h2>
+      <ul class="blocked-users-list">
+        <li class="blocked-user">
+          <img src="https://via.placeholder.com/150" alt="Sam Brown">
+          <h3>Sam Brown</h3>
+          <button class="unblock-user">Unblock User</button>
+        </li>
+        <li class="blocked-user">
+          <img src="https://via.placeholder.com/150" alt="Mary Green">
+          <h3>Mary Green</h3>
+          <button class="unblock-user">Unblock User</button>
+        </li>
+      </ul>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

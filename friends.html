@@ -8,7 +8,7 @@
 <body>
   <header>
     <h1>COMP1004 SPA - Harry Deane</h1>
-   <nav>
+    <nav>
       <div id="dropdown-menu">
         <button id="toggle-button">Menu</button>
         <ul id="nav-links">
@@ -20,46 +20,19 @@
       </div>
     </nav>
   </header>
-    <main>
-      <h2>Friends</h2>
-      <form id="search-form">
-        <input type="text" name="search" placeholder="Search friends">
-        <button type="submit">Search</button>
-      </form>
-      <ul class="friends-list">
-        <li class="friend">
-          <img src="https://via.placeholder.com/150" alt="John Doe">
-          <h3>John Doe</h3>
-          <button class="remove-friend">Remove Friend</button>
-          <button class="block-user">Block User</button>
-        </li>
-        <li class="friend">
-          <img src="https://via.placeholder.com/150" alt="Jane Smith">
-          <h3>Jane Smith</h3>
-          <button class="remove-friend">Remove Friend</button>
-          <button class="block-user">Block User</button>
-        </li>
-        <li class="friend">
-          <img src="https://via.placeholder.com/150" alt="Bob Johnson">
-          <h3>Bob Johnson</h3>
-          <button class="remove-friend">Remove Friend</button>
-          <button class="block-user">Block User</button>
-        </li>
-      </ul>
-      <h2>Blocked Users</h2>
-      <ul class="blocked-users-list">
-        <li class="blocked-user">
-          <img src="https://via.placeholder.com/150" alt="Sam Brown">
-          <h3>Sam Brown</h3>
-          <button class="unblock-user">Unblock User</button>
-        </li>
-        <li class="blocked-user">
-          <img src="https://via.placeholder.com/150" alt="Mary Green">
-          <h3>Mary Green</h3>
-          <button class="unblock-user">Unblock User</button>
-        </li>
-      </ul>
-    </main>
-    <script src="script.js"></script>
-  </body>
+  <main>
+    <form id="search-form">
+      <input type="text" name="search" placeholder="Search users">
+      <button type="submit">Search</button>
+    </form> 
+	<h2>Friend Requests</h2>
+	 <ul class="friend-requests" id="friend-requests"></ul>
+	<h2>Friends</h2>
+    <ul class="friends-list" id="friends-list"></ul>
+    <h2>Blocked Users</h2>
+    <ul class="blocked-users-list" id="blocked-users-list"></ul>
+  </main>
+  <script src="script.js"></script>
+</body>
 </html>
+

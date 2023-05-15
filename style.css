@@ -131,6 +131,17 @@ border-radius: 0.25rem;
 cursor: pointer;
 margin-bottom: 0.5rem;
 }
+
+.accept-request {
+  background-color: green;
+  color: white;
+}
+
+.decline-request {
+  background-color: red;
+  color: white;
+}
+
 #nav-links {
   display: none;
   list-style: none;
